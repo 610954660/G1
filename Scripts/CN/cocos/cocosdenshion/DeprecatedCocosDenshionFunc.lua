@@ -1,0 +1,26 @@
+----zhengyanwei  2015-08-12
+--暂时不处理SimpleAudioEngine相关--现切后台会播放异常--改用新音效引擎--具体接口可以查看SoundManager.lua
+----------------------------_修改开始_--------------------------*/
+-- if nil == cc.SimpleAudioEngine then
+--     return
+-- end
+-- --tip
+-- local function deprecatedTip(old_name,new_name)
+--     if CC_SHOW_DEPRECATED_TIP then print("\n********** \n"..old_name.." was deprecated please use ".. new_name .. " instead.\n**********") end
+-- end
+
+-- --functions of SimpleAudioEngine will be deprecated begin
+-- local SimpleAudioEngineDeprecated = { }
+-- function SimpleAudioEngineDeprecated.sharedEngine()
+--     deprecatedTip("SimpleAudioEngine:sharedEngine","SimpleAudioEngine:getInstance")
+--     return cc.SimpleAudioEngine:getInstance()
+-- end
+-- SimpleAudioEngine.sharedEngine = SimpleAudioEngineDeprecated.sharedEngine
+
+-- function SimpleAudioEngineDeprecated.playBackgroundMusic(self,...)
+--     deprecatedTip("SimpleAudioEngine:playBackgroundMusic","SimpleAudioEngine:playMusic")
+--     return self:playMusic(...)
+-- end
+-- SimpleAudioEngine.playBackgroundMusic = SimpleAudioEngineDeprecated.playBackgroundMusic
+--functions of SimpleAudioEngine will be deprecated end
+--/*--------------------------_修改结束_--------------------------*/

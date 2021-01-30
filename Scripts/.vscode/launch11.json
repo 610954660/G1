@@ -1,0 +1,129 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+    {
+        "type": "emmylua_new",
+        "request": "launch",
+        "name": "EmmyLua New Debug",
+        "host": "localhost",
+        "port": 9966,
+        "ext": [
+            ".lua",
+            ".lua.txt",
+            ".lua.bytes"
+        ],
+        "ideConnectDebugger": true
+    },
+        {
+            "name": "Cocos2-launch",
+            "type": "lua",
+            "request": "launch",
+            "runtimeType": "Cocos2",
+            "localRoot": "D:/A_Compony/TrunkClient/Resources",
+            "commandLine": "-workdir D:/A_Compony/TrunkClient/Resources -file Scripts/main.lua",
+            "port": 7003,
+            "exePath": "D:/A_Compony/TrunkClient/Runtime/Win/whale.exe",
+            "fileExtNames": [
+                ".lua",
+                ".txt",
+                ".lua.txt",
+                ".bytes"
+            ],
+            "isFoxGloryProject": false,
+            "printType": 1
+        },
+        {
+            "name": "COCOS(remote debugging)",
+            "type": "lua",
+            "request": "attach",
+            "runtimeType": "Cocos2",
+            "localRoot": "D:/A_Compony/TrunkClient/Resources",
+            "port": 7003,
+            "fileExtNames": [
+                ".lua",
+                ".txt",
+                ".lua.txt",
+                ".bytes"
+            ],
+            "isFoxGloryProject": false,
+            "printType": 1
+        },
+        {
+            "name": "Unity-ulua",
+            "type": "lua",
+            "request": "attach",
+            "runtimeType": "Unity",
+            "localRoot": "${workspaceRoot}",
+            "fileExtNames": [
+                ".lua",
+                ".txt",
+                ".lua.txt",
+                ".bytes"
+            ],
+            "port": 7003,
+            "printType": 1
+        },
+        {
+            "name": "Unity-slua",
+            "type": "lua",
+            "request": "attach",
+            "runtimeType": "Unity",
+            "localRoot": "${workspaceRoot}",
+            "fileExtNames": [
+                ".lua",
+                ".txt",
+                ".lua.txt",
+                ".bytes"
+            ],
+            "port": 7003,
+            "printType": 1
+        },
+        {
+            "name": "Unity-xlua",
+            "type": "lua",
+            "request": "attach",
+            "runtimeType": "Unity",
+            "localRoot": "${workspaceRoot}",
+            "fileExtNames": [
+                ".lua",
+                ".txt",
+                ".lua.txt",
+                ".bytes"
+            ],
+            "port": 7003,
+            "printType": 1
+        },
+        {
+            "name": "OpenResty",
+            "type": "lua",
+            "request": "attach",
+            "runtimeType": "OpenResty",
+            "localRoot": "${workspaceRoot}",
+            "port": 7003,
+            "fileExtNames": [
+                ".lua"
+            ],
+            "printType": 1
+        },
+        {
+            "name": "LuaTest",
+            "type": "lua",
+            "request": "launch",
+            "runtimeType": "LuaTest",
+            "mainFile": "${fileBasenameNoExtension}",
+            "localRoot": "${fileDirname}",
+            "curFileExtname": "${fileExtname}",
+            "fileExtNames": [
+                ".lua",
+                ".txt",
+                ".lua.txt",
+                ".bytes"
+            ],
+            "port": 7003,
+            "printType": 1
+        }
+    ]
+}

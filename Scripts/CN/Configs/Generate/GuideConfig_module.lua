@@ -1,0 +1,1481 @@
+return 
+{
+	
+ciyuanleifeng={
+	
+	[1]={
+	
+	[1]={
+		desc="次元裂缝进入",
+		ed=1,
+		level=1,
+		listParam="0",
+		node="rightUpNode/btn_guild",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="次元裂缝已开启喵！",
+		textRect="-350,-148,200,30",
+		type=2,
+		view="MainUIView",
+		waitView=0.2,
+		winRect="1,0,0,1,1"
+	},
+	
+	[2]={
+		desc="公会界面",
+		level=1,
+		node="btn_cylf",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="GuildMallView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[3]={
+		desc="奖励引导说明",
+		level=1,
+		node="$btn_targetreward",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="点进去可看见各阶段的奖励！",
+		textRect="-270,100,200,30",
+		type=2,
+		view="GuildFissureView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[4]={
+		desc="关闭按钮",
+		level=1,
+		node="frame/closeButton",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="快去战斗升段位，拿更多的奖励喵！",
+		textRect="-270,100,200,30",
+		type=2,
+		view="GuildFissureTargetRewardView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[5]={
+		desc="开始战斗",
+		level=1,
+		node="$btn_ok",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="GuildFissureView",
+		winRect="1,0,0,1,1"
+	}
+	}
+	},
+	
+gonghui={
+	
+	[1]={
+	
+	[1]={
+		desc="引导进入",
+		level=1,
+		listParam="0",
+		node="rightUpNode/btn_guild",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="公会内可以遇见更多的探长，进去看看！",
+		textRect="-360,-158,230,30",
+		type=2,
+		view="MainUIView",
+		waitView=0.3,
+		winRect="1,0,0,1,1"
+	},
+	
+	[2]={
+		desc="加入公会提醒",
+		doNode="false",
+		ed=1,
+		level=1,
+		listParam="0",
+		noclick=true,
+		node="frame",
+		nodeType=1,
+		pointNode="0.5,0.1",
+		pointType=1,
+		text="在这里你可以寻找到更多的伙伴了，快加入公会的大家庭吧！",
+		textRect="-240,240,300,30",
+		type=2,
+		view="GuildListView",
+		waitView=0.3,
+		winRect="1,0,0,1,1"
+	},
+	
+	[3]={
+		desc="引导进入",
+		level=-10,
+		listParam="0",
+		node="bottomBtns/list_page/0/list_btns/2",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="公会内可以遇见更多的探长，进去试试看！",
+		textRect="-233,-158,230,30",
+		type=2,
+		view="MainUIView",
+		waitView=0.3,
+		winRect="1,0,0,1,1"
+	}
+	}
+	},
+	
+jingjichang={
+	
+	[1]={
+	
+	[1]={
+		desc="主界面试炼（竞技场）",
+		level=1,
+		node="rightUpNode/btn_jinji",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="“铳梦竞技”里可以和各玩家进行战斗!",
+		textRect="-504,-31,230,30",
+		type=2,
+		view="MainUIView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[2]={
+		desc="竞技场入口",
+		level=1,
+		node="frame/contentNode/WorldChallengeView/$list_function/0",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="MainSubBtn2View",
+		winRect="1,0,0,1,1"
+	},
+	
+	[3]={
+		desc="竞技场开始挑战",
+		image="",
+		level=1,
+		node="begin",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="ArenaPerformView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[4]={
+		desc="选人挑战",
+		image="",
+		level=1,
+		node="challengeList/0/cosumBtn",
+		nodeType=1,
+		onceTime=0.1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="选择一个进行挑战。",
+		textRect="-233,-158,230,30",
+		type=2,
+		view="ChallengeView",
+		waitNode=0.15,
+		winRect="1,0,0.1,1,1"
+	},
+	
+	[5]={
+		checkNext="1,0.5",
+		desc="引导上阵",
+		level=1,
+		listParam="controller,self,state,0",
+		node="selectList",
+		nodeType=3,
+		pointNode="0.35,0.35",
+		pointType=4,
+		text="点击“头像”让更多的探员帮助你！",
+		textRect="57,-155,230,30",
+		type=2,
+		view="BattlePrepareView",
+		waitNode=0.01,
+		winRect="1,0,0,0.7,0.7"
+	},
+	
+	[6]={
+		checkNext="1,0.1",
+		desc="引导上阵",
+		level=1,
+		listParam="controller,self,state,0",
+		node="selectList",
+		nodeType=3,
+		pointNode="0.35,0.35",
+		pointType=4,
+		text="点击“头像”让更多的探员帮助你！",
+		textRect="57,-155,230,30",
+		type=2,
+		view="BattlePrepareView",
+		winRect="1,0,0,0.7,0.7"
+	},
+	
+	[7]={
+		checkNext="1,0.1",
+		desc="引导上阵",
+		level=1,
+		listParam="controller,self,state,0",
+		node="selectList",
+		nodeType=3,
+		pointNode="0.35,0.35",
+		pointType=4,
+		text="点击“头像”让更多的探员帮助你！",
+		textRect="57,-155,230,30",
+		type=2,
+		view="BattlePrepareView",
+		winRect="1,0,0,0.7,0.7"
+	},
+	
+	[8]={
+		checkNext="1,0.1",
+		desc="引导上阵",
+		level=1,
+		listParam="controller,self,state,0",
+		node="selectList",
+		nodeType=3,
+		pointNode="0.35,0.35",
+		pointType=4,
+		text="点击“头像”让更多的探员帮助你！",
+		textRect="57,-155,230,30",
+		type=2,
+		view="BattlePrepareView",
+		winRect="1,0,0,0.7,0.7"
+	},
+	
+	[9]={
+		checkNext="1,0.5",
+		desc="引导开始战斗",
+		ed=1,
+		image="",
+		level=1,
+		node="beginBtn",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="探长大人~试试和其他探长切磋一下吧！",
+		textRect="-446,-160,320,30",
+		type=2,
+		view="BattlePrepareView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[10]={
+		checkNext="2,1,BattleBeginView",
+		desc="恭喜获得",
+		eventNode="blackbg",
+		level=1,
+		node="n11",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="AwardShowView",
+		waitView=0.1,
+		winRect="3,0,0,1,1"
+	},
+	
+	[11]={
+		checkNext="1,5.3",
+		desc="胜利结算界面",
+		eventNode="closeButton",
+		level=1,
+		node="tipLose",
+		nodeType=1,
+		pointNode="0.7,0.9",
+		pointType=2,
+		type=2,
+		view="ReWardView",
+		waitView=0.3,
+		winRect="3,0,0,1,1"
+	},
+	
+	[12]={
+		desc="引导关闭",
+		level=1,
+		node="frame/closeButton",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="你可以返回自由探索了！",
+		textRect="-511,-22,230,30",
+		type=2,
+		view="ChallengeView",
+		winRect="1,0,0,1,1"
+	}
+	}
+	},
+	
+jingling={
+	
+	[1]={
+	
+	[1]={
+		desc="精灵系统进入",
+		level=1,
+		node="bottomBtns/list_page/0/list_btns/3",
+		nodeType=1,
+		openView="1,PushMapFilmView,{step='XJ1'}",
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="快进入到精灵世界喵！",
+		textRect="-340,-140,230,30",
+		type=2,
+		view="MainUIView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[2]={
+		desc="说明弹窗关闭",
+		level=1,
+		node="blackbg",
+		nodeType=1,
+		pointNode="0.5,0.95",
+		pointType=1,
+		type=2,
+		view="PublicPicHelpPanel",
+		winRect="1,0,0,1,1"
+	},
+	
+	[3]={
+		desc="切换到精灵召唤界面",
+		level=1,
+		listParam="2",
+		node="list_page",
+		nodeType=2,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="ElvesSystemBaseView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[4]={
+		desc="精灵召唤",
+		ed=1,
+		level=1,
+		node="ElvesSummonView/btn_oneTime",
+		nodeType=1,
+		pointNode="0.5,0.6",
+		pointType=1,
+		text="点击“召唤”将有机会获得精灵！",
+		textRect="-250,-140,230,30",
+		type=2,
+		view="ElvesSystemBaseView",
+		winRect="1,0,0,1,1"
+	}
+	}
+	},
+	
+kuaisuguaji={
+	
+	[1]={
+	
+	[1]={
+		desc="领取挂机奖励",
+		ed=1,
+		level=1,
+		noTounch="3",
+		node="vip_goto",
+		nodeType=1,
+		pointNode="0.8,0.5",
+		pointType=1,
+		text="点击“前往激活”，可获得更多行动次数喵！",
+		textRect="-320,100,240,30",
+		type=2,
+		view="PushMapOnhookRewardView",
+		winRect="2,0,0,1,1"
+	}
+	}
+	},
+	
+lilian={
+	
+	[1]={
+	
+	[1]={
+		desc="试炼（历练）",
+		level=1,
+		node="rightUpNode/jinjichangBtn",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="MainUIView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[2]={
+		desc="试炼界面（历练进入）",
+		ed=1,
+		eventNode="btn_copy",
+		level=1,
+		listParam="0",
+		node="frame/contentNode/SubBtnView/list_btns",
+		nodeType=2,
+		pointNode="0.2,0.2",
+		pointType=2,
+		text="日常副本已开启，快来刷更多的物品！",
+		textRect="-233,-170,280,30",
+		type=2,
+		view="MainSubBtnView",
+		winRect="1,-0.5,-0.5,1,1"
+	}
+	}
+	},
+	
+migong={
+	
+	[1]={
+	
+	[1]={
+		desc="试炼（迷宫）",
+		level=1,
+		node="rightUpNode/jinjichangBtn",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="新的试炼已开启！",
+		textRect="-520,-31,230,30",
+		type=2,
+		view="MainUIView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[2]={
+		desc="迷宫入口进入",
+		ed=1,
+		eventNode="btn_maze",
+		level=1,
+		listParam="0",
+		node="frame/contentNode/SubBtnView/list_btns",
+		nodeType=2,
+		pointNode="0.2,0.2",
+		pointType=2,
+		text="迷宫内错中复杂，走错一步可能会迷失自我！",
+		textRect="-340,-160,260,30",
+		type=2,
+		view="MainSubBtnView",
+		winRect="1,-0.4,-0.4,0.9,0.9"
+	}
+	}
+	},
+	
+mijing={
+	
+	[1]={
+	
+	[1]={
+		desc="试炼（秘境）",
+		level=1,
+		node="rightUpNode/jinjichangBtn",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="新的试炼开启了，快点击看看！",
+		textRect="-550,-31,300,30",
+		type=2,
+		view="MainUIView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[2]={
+		desc="试炼界面进入",
+		eventNode="btn_fraiyLand",
+		level=1,
+		listParam="0",
+		node="frame/contentNode/SubBtnView/list_btns",
+		nodeType=2,
+		pointNode="0.3,0",
+		pointType=2,
+		text="“秘境”已开启，赶紧去瞧瞧有什么事件发生！",
+		textRect="-360,-158,260,30",
+		type=2,
+		view="MainSubBtnView",
+		winRect="1,-0.5,-0.5,1,1"
+	},
+	
+	[3]={
+		desc="“切换”筛子",
+		level=1,
+		noclick=true,
+		node="$com_roll/btn_switch",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="“切换”可以按随自身的心意前行！等会可以自己试试看!",
+		textRect="-233,-158,300,30",
+		type=2,
+		view="FairyLandView",
+		waitView=0.3,
+		winRect="1,0,0,1,1"
+	},
+	
+	[4]={
+		desc="开始摇色子",
+		ed=1,
+		level=1,
+		node="$com_roll/btn_roll",
+		nodeType=1,
+		pointNode="0,0",
+		pointType=1,
+		text="现在看看你能到达什么地方吧！",
+		textRect="-340,-158,285,30",
+		type=2,
+		view="FairyLandView",
+		waitView=0.3,
+		winRect="1,-0.5,-0.5,1,1"
+	}
+	}
+	},
+	
+moban={
+	
+	[1]={
+	
+	[1]={
+		checkNext="2,0.1,ReWardView",
+		desc="升级界面",
+		eventNode="$mask",
+		level=2,
+		node="n24",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="UpgradeView",
+		waitView=0.3,
+		winRect="3,0,0,1,1"
+	},
+	
+	[2]={
+		checkNext="2,0.1,UpgradeView",
+		desc="功能开启界面",
+		eventNode="$mask",
+		level=2,
+		node="n24",
+		nodeType=1,
+		onceTime=0.05,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="ModuleOpenView",
+		waitView=0.3,
+		winRect="3,0,0,1,1"
+	}
+	}
+	},
+	
+molingshan={
+	
+	[1]={
+	
+	[1]={
+		desc="魔灵山引导",
+		ed=1,
+		level=1,
+		node="btn_magicLS",
+		nodeType=1,
+		openView="1,PushMapFilmView,{step='XML1',_rootDepth=301}",
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="探长，魔灵山可以从这里进去",
+		textRect="-340,100,230,30",
+		type=2,
+		view="GuildMallView",
+		winRect="1,0,0,1,1"
+	}
+	}
+	},
+	
+pata={
+	
+	[1]={
+	
+	[1]={
+		desc="试炼（爬塔）",
+		level=1,
+		node="rightUpNode/btn_pata",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="新的试炼开启了，快点击看看！",
+		textRect="-550,-31,300,30",
+		type=2,
+		view="MainUIView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[2]={
+		desc="试炼界面（进入爬塔）",
+		eventNode="btn_pata",
+		level=-10,
+		listParam="0",
+		node="SubBtnView/list_btns",
+		nodeType=2,
+		pointNode="0.6,0.7",
+		pointType=2,
+		text="“第五之塔”已开启，进去看看发生了什么事！",
+		textRect="-233,-158,260,30",
+		type=2,
+		view="MainSubBtnView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[3]={
+		desc="爬塔一层开始挑战",
+		level=1,
+		node="challenge",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="现在进入到塔里面看看吧！",
+		textRect="-360,-160,260,30",
+		type=2,
+		view="PataView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[4]={
+		checkNext="3,0.5,BattlePrepareView,BattleBeginView",
+		desc="上阵引导",
+		level=1,
+		listParam="controller,self,state,0",
+		lockTime=0.1,
+		node="selectList",
+		nodeType=3,
+		pointNode="0.35,0.35",
+		pointType=4,
+		type=2,
+		view="BattlePrepareView",
+		waitNode=0.1,
+		winRect="1,0,0,0.7,0.7"
+	},
+	
+	[5]={
+		checkNext="3,0.1,BattlePrepareView,BattleBeginView",
+		desc="上阵引导",
+		level=1,
+		listParam="controller,self,state,0",
+		lockTime=0.1,
+		node="selectList",
+		nodeType=3,
+		pointNode="0.35,0.35",
+		pointType=4,
+		type=2,
+		view="BattlePrepareView",
+		winRect="1,0,0,0.7,0.7"
+	},
+	
+	[6]={
+		checkNext="3,0.1,BattlePrepareView,BattleBeginView",
+		desc="上阵引导",
+		level=1,
+		listParam="controller,self,state,0",
+		lockTime=0.1,
+		node="selectList",
+		nodeType=3,
+		pointNode="0.35,0.35",
+		pointType=4,
+		type=2,
+		view="BattlePrepareView",
+		winRect="1,0,0,0.7,0.7"
+	},
+	
+	[7]={
+		checkNext="3,0.1,BattlePrepareView,BattleBeginView",
+		desc="上阵引导",
+		level=1,
+		listParam="controller,self,state,0",
+		lockTime=0.1,
+		node="selectList",
+		nodeType=3,
+		pointNode="0.35,0.35",
+		pointType=4,
+		type=2,
+		view="BattlePrepareView",
+		winRect="1,0,0,0.7,0.7"
+	},
+	
+	[8]={
+		checkNext="1,10",
+		desc="爬塔开始战斗",
+		ed=1,
+		level=1,
+		node="beginBtn",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="探员们已就位，开始探险！",
+		textRect="-400,-160,260,30",
+		type=2,
+		view="BattlePrepareView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[9]={
+		desc="结算界面",
+		eventNode="closeButton",
+		level=1,
+		node="tipLose",
+		nodeType=1,
+		pointNode="0.7,0.9",
+		pointType=2,
+		type=2,
+		view="ReWardView",
+		waitView=0.3,
+		winRect="3,0,0,1,1"
+	},
+	
+	[10]={
+		checkNext="1,0.3",
+		desc="等级提升",
+		eventNode="$mask",
+		level=1,
+		node="n24",
+		nodeType=1,
+		onceTime=0.1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="UpgradeView",
+		waitView=0.3,
+		winRect="3,0,0,1,1"
+	},
+	
+	[11]={
+		checkNext="2,0.1,UpgradeView",
+		desc="功能解锁",
+		eventNode="$mask",
+		level=1,
+		node="n24",
+		nodeType=1,
+		onceTime=0.05,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="ModuleOpenView",
+		waitView=0.3,
+		winRect="3,0,0,1,1"
+	}
+	}
+	},
+	
+pushmapmd={
+	
+	[1]={
+	
+	[1]={
+		checkNext="3,1,PushMapCheckPointView",
+		desc="主界面侦察入口",
+		level=1,
+		node="rightUpNode/tuituBtn",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="MainUIView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[2]={
+		desc="通关奖励入口",
+		ed=1,
+		level=1,
+		node="btn_targetReward",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="当前目标已完成，快去领取！",
+		textRect="-370,100,200,30",
+		type=2,
+		view="PushMapCheckPointView",
+		waitView=0.2,
+		winRect="1,0,0,1,1"
+	},
+	
+	[3]={
+		desc="通关10关奖励引导",
+		level=1,
+		node="$list_reward/20001204/Btn_get",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="PushMapTargetRewardView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[4]={
+		checkNext="1,0.5",
+		desc="恭喜获得",
+		eventNode="blackbg",
+		level=1,
+		node="n11",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="AwardShowView",
+		waitView=0.1,
+		winRect="3,0,0,1,1"
+	},
+	
+	[5]={
+		desc="引导点击腾蛇头像",
+		func=40035002,
+		level=1,
+		noclick=true,
+		node="$list_reward/40035002/list_reward/0",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="PushMapTargetRewardView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[6]={
+		checkNext="1,0.1",
+		desc="无（跳板）",
+		eventNode="$clasebtn2",
+		level=1,
+		node="frame/n45",
+		nodeType=1,
+		openView="1,PushMapTargetHeroView",
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="GetHeroCardShowView",
+		waitView=0.5,
+		winRect="3,0,0,1,1"
+	},
+	
+	[7]={
+		desc="五星探员展示",
+		level=1,
+		node="$Btn_enter",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="PushMapTargetHeroView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[8]={
+		desc="侦察信息（提醒新手已经全部完毕）",
+		level=1,
+		node="Btn_enter",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="现在开始自由侦察了喵！",
+		textRect="-233,-158,230,30",
+		type=2,
+		view="PushMapInvestigationView",
+		winRect="1,0,0,1,1"
+	}
+	}
+	},
+	
+texing={
+	
+	[1]={
+	
+	[1]={
+		desc="探员选中",
+		eventNode="cardItem/btn_click",
+		level=3,
+		listParam="0",
+		node="n2",
+		nodeType=2,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="“特性”已开启，进去看看。",
+		textRect="-230,-140,230,30",
+		type=2,
+		view="CardBagView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[2]={
+		desc="切换特性",
+		level=3,
+		listParam="3",
+		node="leftBtnList",
+		nodeType=2,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="CardInfoView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[3]={
+		desc="技能选择",
+		ed=1,
+		level=1,
+		node="$CardInfoTalentView/skillBoard/skillItem_1",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="点击对应的技能即可打开激活界面！",
+		textRect="-230,110,230,30",
+		type=2,
+		view="CardInfoView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[4]={
+		desc="提醒随意激活",
+		level=-10,
+		listParam="0",
+		node="blackBg",
+		nodeType=1,
+		pointNode="0.5,0.9",
+		pointType=1,
+		text="你可自行选择你喜欢的技能激活哦！",
+		textRect="-230,-140,230,30",
+		type=2,
+		view="CardTalentActiveSkillView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[5]={
+		desc="提醒随意激活",
+		doNode="false",
+		level=1,
+		listParam="0",
+		noclick=true,
+		node="frame",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="好了，你可自行选择你喜欢的技能激活哦！",
+		textRect="-230,-180,230,30",
+		type=2,
+		view="CardTalentActiveSkillView",
+		winRect="1,0,0,1,1"
+	}
+	}
+	},
+	
+tibu1={
+	
+	[1]={
+	
+	[1]={
+		checkNext="1,0.5",
+		desc="替补引导1",
+		directNode="-45,-450,450,1.2",
+		ed=1,
+		level=1,
+		noclick=true,
+		node="selectList",
+		nodeType=1,
+		pointNode="0.35,0.35",
+		pointType=1,
+		text="场上的卡位满后就能站上替补位了！",
+		textRect="-250,-300,230,30",
+		type=2,
+		view="BattlePrepareView",
+		waitNode=0.01,
+		winRect="2,-1,0.8,0.85,0.5"
+	},
+	
+	[2]={
+		checkNext="1,0.5",
+		desc="替补引导2",
+		level=2,
+		noclick=true,
+		node="playerSeatLatout/playerSubList",
+		nodeType=1,
+		pointNode="0.2,0.15",
+		pointType=1,
+		text="“替补”可让你的战力变得更大，好好利用起来，！",
+		textRect="-40,100,230,30",
+		type=2,
+		view="BattlePrepareView",
+		waitNode=0.01,
+		winRect="2,0,0,1,1"
+	}
+	}
+	},
+	
+tibu2={
+	
+	[1]={
+	
+	[1]={
+		checkNext="1,0.5",
+		desc="后排替补引导",
+		ed=1,
+		level=1,
+		noclick=true,
+		node="playerSeatLatout/playerSubList",
+		nodeType=1,
+		pointNode="0.2,0.45",
+		pointType=1,
+		text="“后排替补”解锁了，快上阵探员加强实力！",
+		textRect="-40,100,230,30",
+		type=2,
+		view="BattlePrepareView",
+		waitNode=0.01,
+		winRect="2,0,0.1,0.5,0.7"
+	}
+	}
+	},
+	
+wujinshilian={
+	
+	[1]={
+	
+	[1]={
+		desc="主界面试炼（无尽试炼）",
+		level=1,
+		node="rightUpNode/jinjichangBtn",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="新试炼已开启，进入看看！",
+		textRect="-550,-31,280,30",
+		type=2,
+		view="MainUIView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[2]={
+		desc="试炼界面（进入无尽试炼）",
+		func="btn_endlessTrial",
+		funcType="2",
+		level=1,
+		node="list_btns/0/btn_endlessTrial",
+		nodeType=1,
+		pointNode="0.1,0.1",
+		pointType=1,
+		text="有新的玩法出现了喵！",
+		textRect="-233,98,230,30",
+		type=2,
+		view="MainSubBtnView",
+		waitView=0.2,
+		winRect="1,-0.2,-0.5,1,1"
+	},
+	
+	[3]={
+		desc="好友助阵",
+		level=1,
+		listParam="0",
+		node="btn_friendHelp",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="点击可进入助阵界面。",
+		textRect="-160,-140,100,30",
+		type=2,
+		view="EndlessTrialMainView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[4]={
+		desc="好友助战提醒",
+		doNode="false",
+		ed=1,
+		level=1,
+		listParam="0",
+		noclick=true,
+		node="frame",
+		nodeType=1,
+		pointNode="0.5,0.1",
+		pointType=1,
+		text="这里可以选择合适的好友帮助你，但别忘了你也要出支援队喵！",
+		textRect="-240,240,310,30",
+		type=2,
+		view="EndlessFriendSupportView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[5]={
+		desc="引导关闭",
+		level=1,
+		listParam="0",
+		node="frame/closeButton",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="EndlessFriendSupportView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[6]={
+		desc="开始行动",
+		level=1,
+		listParam="0",
+		node="btn_start",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="点击开始行动，作战时间到。",
+		textRect="-300,-140,280,30",
+		type=2,
+		view="EndlessTrialMainView",
+		winRect="1,0,0,1,1"
+	}
+	}
+	},
+	
+xingchengshengsuo={
+	
+	[1]={
+	
+	[1]={
+		desc="主界面试炼（星辰圣所）",
+		level=1,
+		node="rightUpNode/jinjichangBtn",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="点入进去看看！",
+		textRect="-504,-31,200,30",
+		type=2,
+		view="MainUIView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[2]={
+		desc="试炼界面（进入星辰圣所）",
+		ed=1,
+		func="btn_pveStarTemple",
+		funcType="2",
+		level=1,
+		node="list_btns/0/btn_pveStarTemple",
+		nodeType=1,
+		pointNode="0,0.3",
+		pointType=1,
+		text="星辰圣所是个很不错的玩法喵！",
+		textRect="-300,100,230,30",
+		type=2,
+		view="MainSubBtnView",
+		waitView=0.1,
+		winRect="1,-0.2,-0.5,1,1"
+	}
+	}
+	},
+	
+xunlianying={
+	
+	[1]={
+	
+	[1]={
+		desc="训练营阵法入口引导",
+		ed=1,
+		level=1,
+		node="troopBtn",
+		nodeType=1,
+		pointNode="0.3,0.3",
+		pointType=1,
+		type=2,
+		view="TrainingPrepareView",
+		waitView=0.3,
+		winRect="1,0,0,1,1"
+	}
+	}
+	},
+	
+yuanhang={
+	
+	[1]={
+	
+	[1]={
+		checkNext="3,0.1,PushMapCheckPointView",
+		desc="侦察入口",
+		level=1,
+		node="rightUpNode/tuituBtn",
+		nodeType=1,
+		pointNode="0.5,0.57",
+		pointType=1,
+		type=2,
+		view="MainUIView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[2]={
+		desc="委托任务入口",
+		ed=1,
+		level=1,
+		node="btn_entrustTask",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="看看委托者的任务有什么是可以接的喵！",
+		textRect="-350,101,260,30",
+		type=2,
+		view="PushMapCheckPointView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[3]={
+		desc="委托选中",
+		level=1,
+		node="taskList/302",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="看见一个合适的委托，快接一下！",
+		textRect="-233,100,260,30",
+		type=2,
+		view="DelegateView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[4]={
+		desc="一键上阵",
+		level=1,
+		node="btn_recom",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="点击“一键上阵”可快速选择派遣的探员，进行秘密行动！",
+		textRect="-316,-168,260,30",
+		type=2,
+		view="DelegateView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[5]={
+		desc="开始委托",
+		level=1,
+		node="btn_ok",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="探长大人，可以开始行动了！",
+		textRect="-300,-150,260,30",
+		type=2,
+		view="DelegateView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[6]={
+		desc="引导加速拿奖励",
+		level=1,
+		node="btn_quick",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="点击“加速”可以快速完成任务，获得对应的奖励。",
+		textRect="-273,-158,280,30",
+		type=2,
+		view="DelegateView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[7]={
+		checkNext="1,0.5",
+		desc="恭喜获得",
+		eventNode="blackbg",
+		level=1,
+		node="n11",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		type=2,
+		view="AwardShowView",
+		waitView=0.1,
+		winRect="3,0,0,1,1"
+	},
+	
+	[8]={
+		desc="新手引导结束提醒",
+		doNode="false",
+		level=1,
+		listParam="0",
+		noclick=true,
+		node="frame",
+		nodeType=1,
+		pointNode="0.5,0.1",
+		pointType=1,
+		text="到你来接取任务的时间啦！",
+		textRect="-250,200,280,30",
+		type=2,
+		view="DelegateView",
+		winRect="1,0,0,1,1"
+	}
+	}
+	},
+	
+yuanzheng={
+	
+	[1]={
+	
+	[1]={
+		desc="主界面试炼（远征）",
+		level=1,
+		node="rightUpNode/jinjichangBtn",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="你可以前往远征了喵！",
+		textRect="-504,-31,230,30",
+		type=2,
+		view="MainUIView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[2]={
+		desc="试炼界面（进入远征）",
+		ed=1,
+		func="btn_endlessRoad",
+		funcType="2",
+		level=1,
+		node="list_btns/0/btn_endlessRoad",
+		nodeType=1,
+		pointNode="0.3,0.5",
+		pointType=1,
+		text="远征可从此进入！",
+		textRect="-233,-150,200,30",
+		type=2,
+		view="MainSubBtnView",
+		waitView=0.2,
+		winRect="1,-0.5,-0.5,1,1"
+	},
+	
+	[3]={
+		desc="奖励提醒",
+		level=1,
+		node="$bigRewardFrame",
+		nodeType=1,
+		pointNode="0.5,0.6",
+		pointType=1,
+		text="每10关会有一个奖励，别忘了来拿喵！",
+		textRect="-320,100,280,30",
+		type=2,
+		view="ExpeditionView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[4]={
+		desc="引导结束提醒",
+		doNode="false",
+		level=1,
+		listParam="0",
+		noclick=true,
+		node="n0",
+		nodeType=1,
+		pointNode="0.5,0.1",
+		pointType=1,
+		text="现在试试在这个雪林内探索吧！",
+		textRect="-240,240,300,30",
+		type=2,
+		view="ExpeditionView",
+		waitView=0.1,
+		winRect="1,0,0,1,1"
+	}
+	}
+	},
+	
+zhongzhuta={
+	
+	[1]={
+	
+	[1]={
+		desc="试炼（种族塔）",
+		ed=1,
+		level=1,
+		node="rightUpNode/btn_pata",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="种族的大型数据塔已开启，进去瞧瞧！",
+		textRect="-550,-31,300,30",
+		type=2,
+		view="MainUIView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[2]={
+		desc="试炼界面（进入爬塔）",
+		eventNode="btn_pata",
+		level=-10,
+		listParam="0",
+		node="SubBtnView/list_btns",
+		nodeType=2,
+		pointNode="0.6,0.7",
+		pointType=2,
+		type=2,
+		view="MainSubBtnView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[3]={
+		desc="种族塔结束",
+		doNode="false",
+		level=1,
+		listParam="0",
+		noclick=true,
+		node="frame",
+		nodeType=1,
+		pointNode="0.5,0.1",
+		pointType=1,
+		text="每天会有不同的数据塔开启喵，记得进去看看，说必定能发现谁的秘密！",
+		textRect="-240,240,350,30",
+		type=2,
+		view="PataChooseView",
+		waitView=0.3,
+		winRect="1,0,0,1,1"
+	}
+	}
+	},
+	
+zuozhan={
+	
+	[1]={
+	
+	[1]={
+		desc="选中前往升级",
+		ed=1,
+		level=1,
+		node="rightPanel/btn_goUpgrade",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="前往行动可快速提升你的等级！",
+		textRect="-260,-140,300,30",
+		type=2,
+		view="PushMapInvestigationView",
+		winRect="1,0,0,1,1"
+	},
+	
+	[2]={
+		desc="领取快速挂机奖励",
+		level=1,
+		node="Btn_free,Btn_agglutination,btn_gray",
+		nodeType=1,
+		pointNode="0.5,0.5",
+		pointType=1,
+		text="快提升探长等级吧！",
+		textRect="-233,-158,230,30",
+		type=2,
+		view="PushMapOnhookRewardView",
+		winRect="1,0,0,1,1"
+	}
+	}
+	}
+	}
+

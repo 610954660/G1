@@ -1,0 +1,29 @@
+--add by wyang
+--聊天链接类型
+return {
+	ITEM = 'ITEM',
+	ITEMLIST = 'ITEMLIST',
+	PLAYER = 'PLAYER',
+	GUILD = 'GUILD',
+	COLOR = 'COLOR',
+	DIVINATION = 'DIVINATION',
+	HERO = 'HERO',
+	SHARECARD = 'SHARECARD',
+	SHAREROLENAME = 'SHAREROLENAME',
+	SHAREVIDEO = 'SHAREVIDEO',
+	MOUDLEOPEN = 'MOUDLEOPEN',
+	GUILDWAR = 'GUILDWAR',
+	ATOTHER="ATOTHER",
+	APIRIT="APIRIT",
+	SERCERSTR ="SERCERSTR",--服务器需要在msgobj之前不能有中文
+}
+
+
+--[[
+<MsgObj>ITEM,10000004,100</MsgObj>  --ITEM,物品Code,数量
+<MsgObj>PLAYER,3108,玩家名字, 1</MsgObj> --PLAYER,玩家id，serverId
+
+--]]
+
+
+

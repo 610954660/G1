@@ -1,0 +1,30 @@
+return {
+	BaseShop						= 0,--普通商城
+	Limits							= 1,--限购商城
+	Preferential					= 2,--特惠商城
+	Hero							= 3,--英雄商城
+	Guild							= 4,--公会商城
+	Arena 							= 5,--竞技商店
+	EndlessRoad 					= 6,--远征商店
+	Maze							= 7,--迷宫商店
+	Daily							= 8,--精英商店
+	Special							= 9,--特异商店
+	Gift							= 10,--礼包商店 		
+	Character						= 11,--特性商店				
+	SecretArea						= 12,--秘境商店				
+	HighArena 						= 13,--高阶竞技商店
+	Tactical 						= 14,--阵法商店
+	Boundary						= 15,--临界商店
+	HorizonPvp 						= 16,--天域商店
+	CrossArena 						= 17,--跨服竞技场商店
+	Noble							= 18,--贵族商店
+	TimeGather 						= 19,--时空聚集
+	WorldTeamArena                  = 20,--组队竞技场
+	Fashion							= 21,--时装商店
+	SkyLadder						= 22,--天梯商店
+	TopArena						= 23,--巅峰竞技商店
+	CrossSuperMundane 				= 24,--跨服超凡商店
+	SkyLadChampion	 				= 25,--天梯冠军赛商店
+	CollectActivity 				= 401, --集物活动商城
+	Test            				= 99,--测试商城
+}

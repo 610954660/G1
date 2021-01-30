@@ -1,0 +1,17 @@
+return {
+	Pos1  = 1,		 
+	Pos2  = 2, 		 
+	Pos3  = 3, 		 
+	Pos4  = 4, 		 
+	Pos5  = 5, 		 
+	Pos6  = 6, 		 
+	Pos7  = 7,		 
+	Pos8  = 8, 		 
+	Pos9  = 9,		 
+	Pos10 = 10,		 
+	Pos11 = 11,		 
+	Pos12 = 12,		 
+	Pos13 = 13,	
+	Pos14 = 14,	 	
+	Pos15 = 15,
+}
